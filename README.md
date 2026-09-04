@@ -4,7 +4,7 @@ An Internet of Things (IoT) greenhouse powered by the ESP32 Dev Module.
 # Technologies used
 Software
 - Arduino IDE (C++)
-  - Arduino Libraries: ESP32 library, Firebase Arduino Client Library for ESP8266 and ESP32, and Firebase ESP32 Client
+  - Arduino Libraries: ESP32 core library, Firebase Arduino Client Library for ESP8266 and ESP32
 - Google Firebase
    - Firebase hosting
    - Firebase authentication
@@ -43,7 +43,7 @@ Immediately, I turned on anonymous authentication to protect the data as only my
 
 Additionally, the project had to be added as a web app to get its API key and database URL.
 
-Then, I began adding the database code to the Arduino code, initially adding the current status of the pump, moisture, and eventually adding the manual dispense data and plants moisture levels.
+Then, I began adding the database code to the Arduino code, initially adding the current status of the pump, moisture, and eventually adding the manual dispense data and plant's moisture levels.
 
 After confirming that the database is connected to the ESP32 and is actively reading/storing data, I began designing the frontend using HTML and Visual Studio Code.
 
@@ -51,7 +51,7 @@ The API Key and database URL had to be added to the frontend to link the Realtim
 
 Chart.js was utilized in creating the frontend as it would update with the plant's moisture levels every 5 minutes.
 
-Going back to the Arduino IDE, arrays were created to check the current time and functions were created to manually dispense water, and pull up the current time and update the scheduled times.
+Going back to the Arduino IDE, functions were created to manually dispense water, check scheduled times to dispense water, and NTP time sync was added to pull the current time.
 
 Now that the ESP32 code, frontend and backend were working cohesively, it was time to host the web app using Node.js.
 
@@ -78,5 +78,6 @@ To improve this project in the future, a smart plug could be coded using ESPHome
 # References
 - [Add Firebase to your JavaScript project](https://firebase.google.com/docs/web/setup) - referenced for initializing firebase in the frontend
 - [Installation & Setup in JavaScript](https://firebase.google.com/docs/database/web/start) - referenced for reading/writing data from the realtime database into the frontend
-- [How to make Automatic Plant Watering System using Arduino UNO and Soil Sensor || Techie Lagan/Techie Lagan](https://www.youtube.com/watch?v=iwkE_HWU-6M) - referenced for physical wiring of the irrigation kit
+- [ESP32 NTP Client-Server: Get Date and Time (Arduino IDE)](https://randomnerdtutorials.com/esp32-date-time-ntp-client-server-arduino/) - referenced for creating the NTP time sync
+- [How to make Automatic Plant Watering System using Arduino UNO and Soil Sensor || Techie Lagan](https://www.youtube.com/watch?v=iwkE_HWU-6M) - Creator: Techie Lagan, referenced for physical wiring of the irrigation kit
 - [Arduino Firebase project: send data to Firebase using Nodemcu esp8266, firebase library, auth, iot/Electronic Clinic](https://www.youtube.com/watch?v=oS7fdTDajmw) - referenced for adding the realtime database to the ESP32 code
