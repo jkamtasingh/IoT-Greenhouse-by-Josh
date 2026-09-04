@@ -87,6 +87,7 @@ To improve this project in the future, a smart plug could be coded using ESPHome
 https://github.com/user-attachments/assets/9fa8de62-88b0-43d6-bb88-db7d45149c7e
 
 # Manual Dispense
-
+https://github.com/user-attachments/assets/8e4a0ec8-609a-45e9-a343-be4195b3eb26
 
 # Scheduled Dispensing
+
