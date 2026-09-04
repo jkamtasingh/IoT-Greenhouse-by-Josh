@@ -58,4 +58,25 @@ Now that the ESP32 code, frontend and backend were working cohesively, it was ti
 Node.js was the runtime used to install and run the Firebase CLI, which was then used to deploy the web app through Firebase Hosting. 
 
 # What I Learned
+Throughout this project, I learned multiple new skills through using Google Firebase, coding in HTML and reinforcing my current coding skills in the Arduino IDE.
 
+# Google Firebase
+- This was my first time building a web app, by using Google's Firebase, the process was simplified and much easier to follow.
+- I learned how to create a backend, how to connect my backend to a frontend and ESP32 code and how to host it live.
+
+# HTML
+- I had prior experience with HTML in the past and this project allowed to truly test my coding capabilities inside of HTML
+- Throughout this process, I was able to pick up a new skill in creating charts in HTML using Chart.js
+
+# Arduino IDE
+- This project created many debugging sessions with trying to get the Realtime Database communicating with the ESP32 code, but ultimately strengthened my coding abilities.
+- Additionally, my abilities to create complex functions were strengthened as I had to use a variety of data bases together.
+
+# Future Improvements
+To improve this project in the future, a smart plug could be coded using ESPHome, possibly allowing an LED Growth Light to be added to the project. Additionally, I would like to add a temperature sensor and weather forecasts in my area to help determine whether the plants should be watered at a certain time.
+
+# References
+- [Add Firebase to your JavaScript project](https://firebase.google.com/docs/web/setup) - referenced for initializing firebase in the frontend
+- [Installation & Setup in JavaScript](https://firebase.google.com/docs/database/web/start) - referenced for reading/writing data from the realtime database into the frontend
+- [How to make Automatic Plant Watering System using Arduino UNO and Soil Sensor || Techie Lagan/Techie Lagan](https://www.youtube.com/watch?v=iwkE_HWU-6M) - referenced for physical wiring of the irrigation kit
+- [Arduino Firebase project: send data to Firebase using Nodemcu esp8266, firebase library, auth, iot/Electronic Clinic](https://www.youtube.com/watch?v=oS7fdTDajmw) - referenced for adding the realtime database to the ESP32 code
