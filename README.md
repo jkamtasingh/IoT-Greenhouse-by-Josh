@@ -81,3 +81,12 @@ To improve this project in the future, a smart plug could be coded using ESPHome
 - [ESP32 NTP Client-Server: Get Date and Time (Arduino IDE)](https://randomnerdtutorials.com/esp32-date-time-ntp-client-server-arduino/) - referenced for creating the NTP time sync
 - [How to make Automatic Plant Watering System using Arduino UNO and Soil Sensor || Techie Lagan](https://www.youtube.com/watch?v=iwkE_HWU-6M) - Creator: Techie Lagan, referenced for physical wiring of the irrigation kit
 - [Arduino Firebase project: send data to Firebase using Nodemcu esp8266, firebase library, auth, iot/Electronic Clinic](https://www.youtube.com/watch?v=oS7fdTDajmw) - referenced for adding the realtime database to the ESP32 code
+
+# Demo Videos
+# General Use
+https://github.com/user-attachments/assets/9fa8de62-88b0-43d6-bb88-db7d45149c7e
+
+# Manual Dispense
+
+
+# Scheduled Dispensing
